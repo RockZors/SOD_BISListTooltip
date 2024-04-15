@@ -1,19 +1,15 @@
 import sys
 import semver
-
-print(updated_version)
-print(sys.argv[0:])
+print "sys.args:"(sys.argv[0:])
 
 def bump_minor_version(version):
     # Bump the minor version using the semver library
     updated_version = semver.bump_minor(version)
 
     return updated_version
-print(updated_version)
-print(sys.argv[0:])
 
 # Get the semver string from the command-line arguments
-input_version = sys.argv[1]
+input_version = updated_version
 
 has_prefix_v = False
 # If the semver string starts with a "v", remove it
