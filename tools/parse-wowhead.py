@@ -256,6 +256,7 @@ WOW_SLOT_ALIASES = {
     "staves": "two-hand",
     "staff": "two-hand",
     "weapon": "two-hand",
+    "weapons": "two-hand", #Paladin weapon causing error on update
     "two-handed": "two-hand",
     "two-hander": "two-hand",
     "weapon-single-target": "two-hand", # Paladin P2 header. I honestly forget why I even track slots so putting in this hack for now. Could likely clean this up and/or add exceptions per page
