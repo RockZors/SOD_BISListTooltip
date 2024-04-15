@@ -6,6 +6,8 @@ def bump_minor_version(version):
     updated_version = semver.bump_minor(version)
 
     return updated_version
+    print(updated_version)
+    print(sys.argv[0:])
 
 # Get the semver string from the command-line arguments
 input_version = sys.argv[1]
